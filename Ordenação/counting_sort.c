@@ -49,17 +49,17 @@ Bool counting_sort(int *vector, size_t vector_size, int min_value, int max_value
 }
 
 int main(){
-  int menor = INT_MAX, maior = INT_MIN;
-  int vector[] = {2, 9, 3, -1, 2, -3, 10, 25, 500, -7};
+  int min = INT_MAX, max = INT_MIN;
+  int vector[] = {2, 9, 3, -1, 2, -3, 10, 25, 500, -7, -800};
   size_t vector_size = sizeof(vector) / sizeof(vector[0]);
   size_t i;
 
   for(i = 0; i < vector_size; i++){
-    if(vector[i] < menor) menor = vector[i];
-    if(vector[i] > maior) maior = vector[i];
+    if(vector[i] < min) min = vector[i];
+    if(vector[i] > max) max = vector[i];
   }
   
-  Bool success = counting_sort(vector, vector_size, menor, maior);
+  Bool success = counting_sort(vector, vector_size, min, max);
 
   if(!success){
     puts("Problem allocating memory");
