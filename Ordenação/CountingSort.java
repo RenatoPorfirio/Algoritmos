@@ -1,4 +1,13 @@
-class counting_sort{
+/*
+Argoritmo de ordenação em tempo linear
+
+- Complexidade de espaço: O(n + k), onde n é o tamanho do vetor a ser ordenado 
+  e k é dado pelos limites de valores do vetor (k = tam_max - tam_min + 1);
+
+- Complexidade de tempo: O(n + k);
+*/
+
+class CountingSort{
   static boolean counting_sort(int[] vector, int vector_size, int min_value, int max_value){
     int padding = min_value; //utilizado para indexar o vetor do histograma de 0 à count_size-1, de modo que tenha o menor tamanho possível e possa adimitir valores negativos
     int i; //variável auxiliar de contagem
