@@ -10,8 +10,8 @@ Argoritmo de ordenação em tempo linear
 from math import inf
 
 def counting_sort(list, min_value, max_value):
-  padding = min_value                  # utilizado para indexar o vetor do histograma de 0 à count_size-1, de modo que tenha o menor tamanho possível e possa adimitir valores negativos
-  count_size = max_value - padding + 1 #tamanho do histograma
+  padding = min_value                  # utilizado para indexar a lista do histograma de 0 à count_size-1, de modo que tenha o menor tamanho possível e possa adimitir valores negativos
+  count_size = max_value - padding + 1 # tamanho do histograma
   list_size = len(list)
   aux = [0] *  list_size               # lista utilizada para armazenar o resultado da ordenação
   count = [0] * count_size             # lista do hisograma
