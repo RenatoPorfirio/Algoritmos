@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T03:47:44.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="mYBG_t5CJaOG2WUqpSxv" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T03:49:48.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="PT0ck0XzpZP1ymnKjFIV" version="24.1.0" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
     <mxGraphModel dx="1035" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -34,9 +34,6 @@
         </mxCell>
         <mxCell id="Lif8JBEafslfNm7ranTe-3" value="Clientes" style="rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=#F1F8E9;" parent="1" vertex="1">
           <mxGeometry x="230" y="220" width="90" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="Lif8JBEafslfNm7ranTe-4" value="Architecture: Backup and Archive &amp;gt; API Hosting" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="120" width="650" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lif8JBEafslfNm7ranTe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=none;startFill=1;startSize=4;endArrow=blockThin;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4284F3;strokeWidth=2;fontSize=12;fontColor=#000000;align=left;dashed=0;" parent="1" source="Lif8JBEafslfNm7ranTe-3" target="Qnb4eekwlR2uFkBqczZC-17" edge="1">
           <mxGeometry relative="1" as="geometry">
